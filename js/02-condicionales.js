@@ -28,4 +28,8 @@ const edad = parseInt(prompt ('Ingrese su edad'));
 // OR ||
 if(edad >= 18 && edad <= 75){
 document.write(`<p> Usted está obligado a votar</p>`);
+}else if( edad == 16 || edad == 17 || edad >= 76){
+    document.write(`<p>Es opcional votar</p>`)
+}else{
+    document.write(`<p>No puede votar</p>`)
 }
