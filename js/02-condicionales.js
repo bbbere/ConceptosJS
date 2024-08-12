@@ -33,3 +33,11 @@ document.write(`<p> Usted está obligado a votar</p>`);
 }else{
     document.write(`<p>No puede votar</p>`)
 }
+
+document.write('<p>aqui debo agregar mas código</p>')
+
+const palabra='argentina'
+
+console.log(palabra.length)
+console.log(palabra.chartAt(0))
+console.log(palabra.chartArt(1))
